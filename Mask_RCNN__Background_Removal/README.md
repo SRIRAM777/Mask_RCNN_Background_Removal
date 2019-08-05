@@ -19,7 +19,7 @@ It includes code to run object detection and instance segmentation on arbitrary 
 
 * [helper_methods.py](Mask_RCNN_Background_Removal/helper_methods.py): This file contains the various helper methods to run the main application file.
 
-* [view.html](templates/view.html)[index.html](templates/index.html): These are the frontend files.
+* [view.html](templates/view.html), [index.html](templates/index.html): These are the frontend files.
 
 * [requirements.txt]: Packages necessary for the application.
 
