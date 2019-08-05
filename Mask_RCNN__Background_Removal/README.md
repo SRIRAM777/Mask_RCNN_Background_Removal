@@ -15,11 +15,11 @@ It includes code to run object detection and instance segmentation on arbitrary 
 
 * ([model.py](mrcnn/model.py), [utils.py](mrcnn/utils.py), [config.py](mrcnn/config.py)): These files contain the main Mask RCNN implementation. 
 
-* [application.py]: This is the main file to run the Flask application. The routes to send image path or URL are passed in this file.
+* [application.py](Mask_RCNN_Background_Removal/application.py): This is the main file to run the Flask application. The routes to send image path or URL are passed in this file.
 
-* [helper_methods.py]: This file contains the various helper methods to run the main application file.
+* [helper_methods.py](Mask_RCNN_Background_Removal/helper_methods.py): This file contains the various helper methods to run the main application file.
 
-* [view.html,index.html]: These are the frontend files.
+* [view.html,index.html](templates/view.html)(templates/index.html): These are the frontend files.
 
 * [requirements.txt]: Packages necessary for the application.
 
