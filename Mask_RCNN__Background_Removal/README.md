@@ -27,8 +27,6 @@ It includes code to run object detection and instance segmentation on arbitrary 
 
 #### The model can be improved by retraining the weights on a specific dataset which has human images along with their masks and bounding boxes.
 
-
-## Output results for test dataset can be found inside samples folder. 
 ### [Output Images after Background Removal](samples)
 
 
