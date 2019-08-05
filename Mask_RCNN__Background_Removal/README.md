@@ -26,7 +26,8 @@ It includes code to run object detection and instance segmentation on arbitrary 
 * [Dockerfile]: Dockerfile to set up the Docker container for the application.
 
 
-##Output results for test dataset can be found inside samples folder.
+##Output results for test dataset can be found inside samples folder. 
+## [Output Images after Background Removal](samples)
 
 
 ## Installation
