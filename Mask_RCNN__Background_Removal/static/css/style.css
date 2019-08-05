@@ -1,0 +1,17 @@
+body {
+	background-image:url('bg4.jpg');
+ }
+
+#name-field{
+	width: 50em;
+	color: black;
+}
+.submit-div{
+  padding: 1em;
+  margin-left: -70px;
+}
+
+.submit-div{
+ 	display: block;
+    padding: 10px;
+ }

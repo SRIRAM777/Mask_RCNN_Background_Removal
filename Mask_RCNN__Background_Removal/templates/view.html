@@ -1,0 +1,44 @@
+<html>
+   <head>
+      <title>Background Removal</title>
+      <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="{{ url_for('static', filename='js/form.js') }}"></script>
+      <link rel="stylesheet" href="/static/css/style.css">
+   </head>
+   <body>
+      <div class="container">
+         <br>
+         <center>
+            <h2>Mask RCNN to remove background from images</h2>
+         </center>
+      </div>
+      <div class="container">
+         <br>
+         <div class="row align-items-center justify-content-center">
+            <div class="col-md-4">
+               <form class="form-inline">
+                  <div class="form-group">
+                     <label for="name-field" class="label-class">Enter the local path of the image or any URL referencing an image</label>
+                     <input type="text" class="form-control" id="name-field" name="name" placeholder="Example: https://google.com/images (or) User/Documents/image.jpg">
+                     <br>
+                  </div>
+                  <br>                             
+                  <div class="submit-div">
+                     <center>
+                        <button type="submit" id="submit-btn">Submit</button>
+                     </center>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+               </form>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
